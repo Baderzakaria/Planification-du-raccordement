@@ -12,7 +12,7 @@ class Infra :
  :param infra_type: Determine the type of infrastructure
  :param nb_houses: Determine the number of houses that are connected to this infrastructure
  :return: An object
- :doc-author: Trelent
+ :doc-author: Imene
  """
  		self.infra_id = infra_id
 		self.length = length
@@ -34,7 +34,7 @@ class Infra :
  :param self: Refer to the instance of the class
  :param other_infra: Add the difficulty of another infrastructure to the current one
  :return: The sum of the object's infra difficulty and another infrastructure
- :doc-author: Trelent
+ :doc-author: Imene
  """
  		return self.get_infra_difficulty() + other_infra
 
@@ -46,6 +46,6 @@ class Infra :
 
  :param self: Represent the instance of the class
  :return: The printable representation of the object
- :doc-author: Trelent
+ :doc-author: Imene
  """
  		return f"{self.infra_id}"
