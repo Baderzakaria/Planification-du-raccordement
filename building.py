@@ -8,7 +8,7 @@ class Building:
  :param id_building: Identify the building
  :param list_infras: Store the list of infrastructures in a building
  :return: Nothing
- :doc-author: Trelent
+ :doc-author: Imene
  """
  		self.id_building = id_building
 		self.list_infras = list_infras
@@ -20,7 +20,7 @@ class Building:
 
  :param self: Refer to the object itself
  :return: The sum of all the infrastructure levels in a building
- :doc-author: Trelent
+ :doc-author: Imene
  """
 		return sum(self.list_infras)
 
