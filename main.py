@@ -52,25 +52,16 @@ It returns a list of building objects.
         list_buildings.append(building.Building(building_id, list_infras))
     return list_buildings
 
-def plan_repairs(list_buildings):
-    """
-The plan_repairs function takes a list of buildings as input and returns a sorted list of the same buildings.
-The function sorts the building objects in ascending order by their repair_priority attribute, then calls
-the repair_infra method on each infrastructure object within each building. The return value is a sorted list
-of all the buildings that were passed to it.
+   
 
-:param list_buildings: Pass the list of buildings to the function
-:return: A list of buildings sorted by their priority
-:doc-author: badreldin
-"""
-    list_sorted_buildings = sorted(list_buildings)
-  
-    for building in list_sorted_buildings:
-        for infra in building.list_infras:
-            infra.repair_infra()
-  
-    return list_sorted_buildings
 
+
+
+
+
+
+
+   
 def generate_priority_list(list_buildings):
     """
 The generate_priority_list function takes a list of buildings as input and returns two lists:
