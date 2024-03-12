@@ -3,6 +3,7 @@
 # authors:
 Badreldin zakaria
 Nidhal manaa
+Imene ALLOUACHE
 <details>
 <summary><strong>Data Cleaning 👨‍🔧</strong></summary>
   
